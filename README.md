@@ -1,1 +1,1 @@
-# namspacesquota
+# namespacesquota
