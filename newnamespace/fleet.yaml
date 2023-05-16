@@ -1,0 +1,16 @@
+helm:
+  #chart: rancher-project
+  releaseName: testnamespace
+  #repo: https://github.com/mrolmedo/laboratoriorancher
+  values:
+    clusterId: c-hjcff
+    namespace: testnamespace
+    projectId: p-rsgzc
+    #allowedHosts:
+    #  -
+    quota:
+      limits_cpu: '1'
+      limits_memory: 500Mi
+      requests_storage: 5Gi
+    userId: user-7wsgx
+  version: 0.1.1
